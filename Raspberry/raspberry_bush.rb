@@ -14,7 +14,7 @@ class RaspberryBush
 
   def grow_all
     @raspberries.each do |raspberry|
-      raspberry.grow()
+      raspberry.grow
     end 
   end
 
@@ -30,7 +30,7 @@ class RaspberryBush
 
   def give_away_all
     @raspberries.each do |raspberry|
-      raspberry.collect()
+      raspberry.collect
     end
   end
 end

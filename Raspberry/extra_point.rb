@@ -6,7 +6,6 @@ if __FILE__ == 'extra_point.rb'
   
   count_of_coolleccted_raspberries = 0 
   puts("Hi, " + name + ", Now you don’t have a raspberry bush or a raspberry itself.")
-  sleep(2)
 
   puts("choose the count of raspberries on the bush:")
   count_of_raspberries = gets.chomp.to_i

@@ -9,12 +9,12 @@ class Human
   end
 
   def work
-    plant.grow_all()
+    plant.grow_all
   end
 
   def harvest
-    if plant.ripe_all?()
-      plant.give_away_all()
+    if plant.ripe_all?
+      plant.give_away_all
       puts("raspberry collected!")
       return 1
     else
